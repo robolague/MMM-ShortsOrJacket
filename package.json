@@ -1,0 +1,24 @@
+{
+	"name": "mmm-shortsorjacket",
+	"version": "1.0.0",
+	"description": "MagicMirror module that recommends shorts or a jacket based on today's forecast high.",
+	"main": "MMM-ShortsOrJacket.js",
+	"scripts": {
+		"test": "node --test test/recommendation.test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/robolague/MM-ShortsOrJacket.git"
+	},
+	"keywords": [
+		"magicmirror",
+		"magicmirror2",
+		"weather",
+		"clothing"
+	],
+	"author": "robolague",
+	"license": "MIT",
+	"engines": {
+		"node": ">=18"
+	}
+}
