@@ -1,4 +1,4 @@
-# MM-ShortsOrJacket — Specification
+# MMM-ShortsOrJacket — Specification
 
 ## Overview
 

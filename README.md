@@ -22,7 +22,7 @@ See [SPEC.md](SPEC.md) for the full specification.
 
 ```bash
 cd ~/MagicMirror/modules
-git clone https://github.com/robolague/MM-ShortsOrJacket.git MMM-ShortsOrJacket
+git clone https://github.com/robolague/MMM-ShortsOrJacket.git MMM-ShortsOrJacket
 ```
 
 ### Option B: MMM-Installer
@@ -34,7 +34,7 @@ bash -c "$(curl -sL https://raw.githubusercontent.com/KoljaL/MMM-Installer/main/
 Search for `MMM-ShortsOrJacket` or install by URL:
 
 ```
-https://github.com/robolague/MM-ShortsOrJacket
+https://github.com/robolague/MMM-ShortsOrJacket
 ```
 
 ## Configuration
