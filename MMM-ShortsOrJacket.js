@@ -99,8 +99,17 @@ Module.register("MMM-ShortsOrJacket", {
 
 	notificationReceived(notification, payload) {
 		if (notification === "WEATHER_UPDATED") {
-			this.forecast = payload?.forecastArray?.[0] ?? null;
-			this.hourlyArray = payload?.hourlyArray ?? [];
+			const nextForecast = payload?.forecastArray?.[0];
+			const nextHourly = payload?.hourlyArray;
+
+			// Forecast and hourly often come from separate weather module instances.
+			if (nextForecast) {
+				this.forecast = nextForecast;
+			}
+			if (Array.isArray(nextHourly) && nextHourly.length > 0) {
+				this.hourlyArray = nextHourly;
+			}
+
 			this.updateDom(this.config.animate ? 300 : 0);
 		}
 	},
